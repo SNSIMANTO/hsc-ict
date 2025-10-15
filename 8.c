@@ -6,7 +6,7 @@ int main() {
     // Input from user
     printf("Enter a number: ");
     scanf("%d", &number);
-
+if(number!=0){
     // Check conditions
     if (number > 0) {
         printf("The number is Positive.\n");
@@ -14,7 +14,8 @@ int main() {
     else if (number < 0) {
         printf("The number is Negative.\n");
     }
-    else {
+}
+else {
         printf("The number is Zero.\n");
     }
 
